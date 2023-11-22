@@ -1,0 +1,19 @@
+name: CI
+on: push
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone
+        uses: actions/checkout@v2
+        with:
+          # Agregar la versión de Node.js que quieres utilizar
+          node-version: '21'
+      - name: Use Node.js 21.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: '21'
+      - name: Setup
+        run: npm ci
+      - name: Test
+        run: npm test -- --no-watch --no-progress --browsers=ChromeHeadlessCI

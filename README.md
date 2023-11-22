@@ -1,27 +1,31 @@
-# FuncionesAleatoreas
+# Proyecto de Angular - Tarea Final - Flujo de trabajo Github Flow
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
+Este proyecto de Angular es parte de la tarea final que implica la implementación de funciones básicas en TypeScript. Sigue estos pasos para asegurarte de tener correctamente configurado el entorno de desarrollo.
 
-## Development server
+## Requisitos previos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Asegúrate de tener instalado lo siguiente antes de comenzar:
 
-## Code scaffolding
+- **Node.js**: Versión 21.1.0 o superior. Puedes descargarlo desde [nodejs.org](https://nodejs.org/).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    Verifica la versión instalada ejecutando:
+    ```bash
+    node -v
+    ```
 
-## Build
+- **npm (Node Package Manager)**: Se recomienda la versión 10.2.4 para este proyecto. Instálalo globalmente con:
+    ```bash
+    npm install -g npm@10.2.4
+    ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+    Verifica la versión instalada ejecutando:
+    ```bash
+    npm -v
+    ```
 
-## Running unit tests
+## Instalación de Angular CLI
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para trabajar con este proyecto, necesitarás Angular CLI. Instálalo globalmente con el siguiente comando:
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+npm install -g @angular/cli
