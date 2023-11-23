@@ -6,8 +6,10 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './numbers.component.html',
-  styleUrl: './numbers.component.css'
+  styleUrl: './numbers.component.css',
 })
-export class NumbersComponent {
+export class NumbersComponent {}
 
+export function split(num1: number, num2: number) {
+  return num1 / num2;
 }
