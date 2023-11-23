@@ -16,3 +16,7 @@ export class LettersComponent {
 export function lowerCase(chain: string){
   return chain.toLowerCase();
 }
+
+export function upperCase(chain: string){
+  return chain.toUpperCase();
+}
