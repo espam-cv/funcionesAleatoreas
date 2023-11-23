@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Chain } from '@angular/compiler';
 
 @Component({
   selector: 'app-letters',
@@ -10,4 +11,8 @@ import { CommonModule } from '@angular/common';
 })
 export class LettersComponent {
 
+}
+
+export function lowerCase(chain: string){
+  return chain.toLowerCase();
 }
