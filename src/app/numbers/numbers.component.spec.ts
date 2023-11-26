@@ -1,7 +1,7 @@
-import { split, multiply, power, subtract, sum } from './numbers.component';
+import { divide, multiply, power, subtract, sum } from './numbers.component';
 
-it(`This function divides two numbers`, () => {
-  expect(split(6, 2)).toEqual(3);
+it(`This function divide two numbers`, () => {
+  expect(divide(6, 2)).toEqual(3);
 });
 
 it('This function multiply two numbers', () => {
