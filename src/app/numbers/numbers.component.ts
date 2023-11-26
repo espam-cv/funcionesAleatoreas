@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
 })
 export class NumbersComponent {}
 
-export function split(num1: number, num2: number) {
+export function divide(num1: number, num2: number) {
   return num1 / num2;
 }
 
